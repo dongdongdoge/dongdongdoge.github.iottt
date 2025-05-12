@@ -17,12 +17,46 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Wentao Dong (董文韬), pursuing my Ph.D. in Computer Science at City University of Hong Kong, fortunate to be advised by [Prof. Cong Wang](https://www.cs.cityu.edu.hk/~congwang/).
-My work explores how to make secure computation more efficient, privacy stronger, and adversarial resilience a reality — not just a theoretical promise.
-I believe good systems are not only secure by design, but also survive the inevitable chaos of the real world.
+I'm Wentao Dong (董文韬), a Ph.D. candidate in Computer Science at City University of Hong Kong, advised by [Prof. Cong Wang](https://www.cs.cityu.edu.hk/~congwang/).
+My research focuses on making secure computation—including multi-party computation, oblivious RAM, and related techniques—more efficient, strengthening privacy, and turning adversarial resilience into reality.
+Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems.
 
-Alongside my research, I am also the founder of [XCrypt](\about), a secure computation startup seed-funded by both HK Tech 300 and HKSTP Ideation programs.
-We focus on providing practical privacy-preserving solutions grounded in cryptographic principles.
+Outside academia, I lead [XCrypt](\about), a secure computation startup project seed-funded by HK Tech 300 and the HKSTP Ideation Program, delivering practical privacy-preserving solutions rooted in cryptographic principles.
+
+<!-- <div class="accordion">
+
+  <div class="accordion-item">
+    <div class="accordion-header">Secure Computation Systems</div>
+    <div class="accordion-content">
+
+      <div class="paper">
+        <span class="highlight">TEE-assisted Secure Computation:</span> 
+        Verifiable MPC Preprocessing (<b>TIFS'25</b>: Verifiable Silent Preprocessing, <b>CCS'23 Poster</b>: Lightweight TEE-assisted MPC); 
+        Secure RAM Architectures (<b>USENIX Sec'25</b>: H₂O₂RAM - High-Performance Oblivious RAM)
+      </div>
+
+      <div class="paper">
+        <span class="highlight">Anonymous Communication Systems:</span> 
+        Accountable Broadcast (<b>NDSS'25</b>: Ring of Gyges); 
+        Metadata-Private Queries (<b>ICDCS'24</b>: HiddenTor); 
+        Decentralized Messaging (<b>arXiv'25</b>: Metadata-Private Messaging without Coordination)
+      </div>
+
+      <div class="paper">
+        <span class="highlight">Privacy-Preserving Data Analytics:</span> 
+        <b>VLDB'26</b>: Communication-Efficient Multi-Party Shuffle DP
+      </div>
+
+      <div class="paper">
+        <span class="highlight">Privacy-Preserving Machine Learning (PPML):</span> 
+        <b>WISE'24</b>: VizardFL - Private Participation in FL
+      </div>
+
+    </div>
+  </div>
+
+</div> -->
+
 
 <!-- # Research Overview:
 ```c++
@@ -100,10 +134,10 @@ arXiv Preprint (2025).
 Peipei Jiang, Yihao Wu, Lei Xu, **Wentao Dong**, Peiyuan Chen, Yulong Ming,
 Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 
-<span class='anchor' id='-projects'></span>
+<!-- <span class='anchor' id='-projects'></span>
 # Projects
 - [SCION](https://scion-architecture.net/) (Scalability, Control, and Isolation on Next-generation Networks) Project, Hong Kong Node — Coordination Team Member.
-- [XCrypt](\about) Project, HKSTP & HK Tech 300 Seed-Funded Project — PIC.
+- [XCrypt](\about) Project, HKSTP & HK Tech 300 Seed-Funded Project — PIC. -->
 
 <!-- - [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -133,10 +167,8 @@ Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 
 ### Teaching Assistant
 - *2021*, TA for CS3504 IT Professional Placement (Undergraduate).
-- *2022*, TA for CS2311 Computer Programming (Undergraduate).
-- *2023*, TA for CS3402 Database Systems (Undergraduate).
-- *2024*, TA for CS2311 Computer Programming (Undergraduate).
-- *2025*, TA for CS2311 Computer Programming (Undergraduate).
+- *2022*, TA for CS3402 Database Systems (Undergraduate).
+- *2023,2024,2025*, TA for CS2311 Computer Programming (Undergraduate).
   
 ### Community Services
 - Reviewer for IEEE IoTJ, TSC.

@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wentao Dong"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "PhD Student at CityUHK.  PIC of XCrypt"
+  bio              : "PhD Student at CityUHK.  Founder/PIC of XCrypt."
   location         : "Kowloon, Hong Kong"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : dongdongdoge
   google_plus      :
   keybase          :
   instagram        :
