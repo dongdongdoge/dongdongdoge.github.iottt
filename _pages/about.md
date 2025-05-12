@@ -162,7 +162,7 @@ Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 - *2020.01 - 2020.08*, Sangfor Technologies Inc., Software Engineer.
 - *2018.07 - 2019.12*, Intel Asia-Pacific R&D Center, R&D Engineer.
 
-<span class='anchor' id='-teaching-and-services'></span>
+<span class='anchor' id='-teaching-and-service'></span>
 # Teaching and Services
 
 ### Teaching Assistant
