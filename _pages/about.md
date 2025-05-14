@@ -23,6 +23,9 @@ Recently, I have been exploring secure infrastructure for trustworthy LLM/AI eco
 
 Outside academia, I lead [XCrypt](\about), a secure computation startup project seed-funded by HK Tech 300 and the HKSTP Ideation Program, delivering practical privacy-preserving solutions rooted in cryptographic principles.
 
+# Research Visualization Maps
+<img src="images/map.png" alt="research_map" width="60%" style="display: block; margin: 0 auto;">
+
 <!-- <div class="accordion">
 
   <div class="accordion-item">
@@ -161,6 +164,7 @@ Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 - *2020.09 - 2021.03*, City University of Hong Kong, Research Assistant. 
 - *2020.01 - 2020.08*, Sangfor Technologies Inc., Software Engineer.
 - *2018.07 - 2019.12*, Intel Asia-Pacific R&D Center, R&D Engineer.
+- *2018.02 - 2019.06*, Intel Asia-Pacific R&D Center, Software Engineer Intern.
 
 <span class='anchor' id='-teaching-and-service'></span>
 # Teaching and Services
