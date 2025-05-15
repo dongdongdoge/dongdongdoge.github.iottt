@@ -37,7 +37,7 @@ Outside academia, I lead [XCrypt](\about), a secure computation startup project 
         <p>The map illustrates the evolution and connections of these research directions.</p>
     </div>
     <div style="flex: 0.68;">
-        <img src="images/my_map.png" alt="research_map" width="100%" style="display: block;">
+        <img src="images/my_maps.png" alt="research_map" width="100%" style="display: block;">
     </div>
 </div>
 
