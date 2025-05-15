@@ -23,8 +23,23 @@ Recently, I have been exploring secure infrastructure for trustworthy LLM/AI eco
 
 Outside academia, I lead [XCrypt](\about), a secure computation startup project seed-funded by HK Tech 300 and the HKSTP Ideation Program, delivering practical privacy-preserving solutions rooted in cryptographic principles.
 
-# Research Visualization Maps
-<img src="images/map.png" alt="research_map" width="60%" style="display: block; margin: 0 auto;">
+# Research Interests
+
+<div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0 -1rem 0;">
+    <div style="flex: 0.32;">
+        <p>My recent research spans across the security and privacy issues in:</p>
+        <ul>
+            <li>Secure Computation Systems.</li>
+            <li>Anonymous Communication Systems.</li>
+            <li>Privacy-Preserving Analytics & ML.</li>
+            <li>AI/LLM Infrastructure.</li>
+        </ul>
+        <p>The map illustrates the evolution and connections of these research directions.</p>
+    </div>
+    <div style="flex: 0.68;">
+        <img src="images/my_map.png" alt="research_map" width="100%" style="display: block;">
+    </div>
+</div>
 
 <!-- <div class="accordion">
 
@@ -175,8 +190,8 @@ Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 - *2023,2024,2025*, TA for CS2311 Computer Programming (Undergraduate).
   
 ### Community Services
-- Reviewer for IEEE IoTJ, TSC.
-- External Reviewer for IEEE TDSC, USENIX Security, ACM AsiaCCS, IEEE ICDCS.
+- Reviewer for IEEE IoTJ, IEEE TSC.
+- External Reviewer for IEEE S&P, IEEE TDSC, USENIX Security, IEEE INFOCOM, ESORICS, ACM AsiaCCS, IEEE ICDCS, ICICS, WPES, etc.
  
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
