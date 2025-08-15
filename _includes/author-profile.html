@@ -139,6 +139,52 @@
           <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8I5MYrj1fQE6W59JwQJQ-VgfmI-XPWoh6ISDAkHuJY0&cl=ffffff&w=a"></script>
         </div>
       </li>
+      
+      <!-- Mobile-responsive styles for sidebar -->
+      <style>
+      @media (max-width: 768px) {
+          .author__urls {
+              font-size: 0.9em;
+          }
+          .author__urls li {
+              margin-bottom: 0.8em;
+              padding: 0.5em 0;
+          }
+          .author__urls a {
+              padding: 0.3em 0;
+              display: block;
+          }
+          .author__urls i {
+              margin-right: 0.8em;
+              width: 1.2em;
+          }
+          .author__urls h4 {
+              font-size: 1em;
+              margin-bottom: 0.6em;
+          }
+          .author__urls .fa-fw {
+              width: 1.2em !important;
+          }
+          /* Optimize visitor map for mobile */
+          #clustrmaps {
+              max-width: 100% !important;
+              height: auto !important;
+          }
+      }
+      
+      @media (max-width: 480px) {
+          .author__urls {
+              font-size: 0.85em;
+          }
+          .author__urls li {
+              margin-bottom: 0.6em;
+              padding: 0.4em 0;
+          }
+          .author__urls a {
+              padding: 0.2em 0;
+          }
+      }
+      </style>
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
