@@ -30,13 +30,13 @@ Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed
     <ul style="margin: 0 0 2rem 0; padding-left: 1.2rem;">
         <li style="margin-bottom: 0.5rem;"><strong>Secure Computation (Multi-Party Computation, Oblivious RAM, Trusted Execution Environment, etc.)</strong></li>
         <li style="margin-bottom: 0.5rem;"><strong>Anonymous Communication (Sender/Receiver Anonymity, Metadata Privacy, etc.) </strong></li>
-        <li style="margin-bottom: 0.5rem;"><strong>Privacy-Preserving Analytics & ML (Multi-Party Computation, Differential Privacy, etc.)</strong></li>
-        <li style="margin-bottom: 0.5rem;"><strong>Secure AI/LLM Infrastructure (Secure Inference, Secure Training, etc.)</strong></li>
+        <li style="margin-bottom: 0.5rem;"><strong>Privacy-Preserving Analytics & ML (Multi-Party Computation, Differential Privacy, Secure Inference/Training, etc.)</strong></li>
+        <li style="margin-bottom: 0.5rem;"><strong>Secure AI/LLM Infrastructure (LLM Toolchain Security, etc.)</strong></li>
     </ul>
     <p style="margin: 0 0 2rem 0; font-size: 0.9em; color: #666; font-style: italic;">The figure below simply illustrates the evolution and connections of all these research directions.</p>
     
     <div style="text-align: center;">
-        <img src="images/my_maps.png" alt="Research Map" style="width: 98%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <img src="images/my_maps.png" alt="Research Map" style="width: 70%; height: auto;">
     </div>
 </div>
 
