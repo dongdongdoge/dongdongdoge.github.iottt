@@ -36,7 +36,7 @@ Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed
     <p style="margin: 0 0 2rem 0; font-size: 0.9em; color: #666; font-style: italic;">The figure below simply illustrates the evolution and connections of all these research directions.</p>
     
     <div style="text-align: center;">
-        <img src="images/my_maps.png" alt="Research Map" style="width: 70%; height: auto;">
+        <img src="images/my_maps.png" alt="Research Map" style="width: 90%; height: auto;">
     </div>
 </div>
 
