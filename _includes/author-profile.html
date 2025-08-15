@@ -117,7 +117,28 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
+      
+      <!-- Useful Links Section -->
+      <li style="margin-top: 1.5em; border-top: 1px solid #e3e3e3; padding-top: 1em;">
+        <h4 style="margin: 0 0 0.8em 0; color: #2c3e50; font-size: 0.9em;">Useful Links</h4>
+      </li>
+      <li><a href="https://people.engr.tamu.edu/guofei/sec_conf_stat.htm" target="_blank"><i class="fas fa-fw fa-chart-bar" aria-hidden="true"></i> SECURITY CONF STATS</a></li>
+      <li><a href="http://jianying.space/conference-ranking.html" target="_blank"><i class="fas fa-fw fa-sort-numeric-down" aria-hidden="true"></i> SECURITY CONF RANKS</a></li>
+      <li><a href="https://www.usenix.org/" target="_blank"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> USENIX Security </a></li>
+      <li><a href="https://www.ndss-symposium.org/" target="_blank"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> NDSS</a></li>
+      <li><a href="https://www.ieee-security.org/TC/" target="_blank"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> IEEE S&P</a></li>
+      <li><a href="https://www.sigsac.org/ccs/CCS2025/" target="_blank"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> ACM CCS</a></li>
+      <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858" target="_blank"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> IEEE TDSC</a></li>
+      <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank"><i class="fas fa-fw fa-book-open" aria-hidden="true"></i> IEEE TIFS</a></li>
+      
+      <!-- Visitor Map Widget -->
+      <li style="margin-top: 1.2em; border-top: 1px solid #e3e3e3; padding-top: 0.8em;">
+        <h4 style="margin: 0 0 0.6em 0; color: #2c3e50; font-size: 0.9em;">Visitor Map</h4>
+        <div style="text-align: center; margin: 0.5em 0;">
+          <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8I5MYrj1fQE6W59JwQJQ-VgfmI-XPWoh6ISDAkHuJY0&cl=ffffff&w=a"></script>
+        </div>
+      </li>
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}

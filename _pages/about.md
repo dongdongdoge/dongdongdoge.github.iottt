@@ -17,89 +17,29 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Wentao Dong (董文韬), a Ph.D. candidate in Computer Science at City University of Hong Kong, advised by [Prof. Cong Wang](https://www.cs.cityu.edu.hk/~congwang/).
-My research focuses on making secure computation—including multi-party computation, oblivious RAM, and related techniques—more efficient, strengthening privacy, and turning adversarial resilience into reality.
-Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems.
+I'm Wentao DONG (董文韬, pronounced like "win top-down"), a Postdoctoral Fellow at The Laboratory for AI-Powered Financial Technologies Limited (AIFT). I earned my Ph.D. degree in Computer Science from City University of Hong Kong under the supervision of Prof. Cong Wang. 
 
-Outside academia, I lead [XCrypt](\about), a secure computation startup project seed-funded by HK Tech 300 and the HKSTP Ideation Program, delivering practical privacy-preserving solutions rooted in cryptographic principles.
+My research focuses on advancing secure computation—covering multi-party computation, oblivious algorithms, and related techniques—by improving efficiency, enhancing privacy, and achieving robust adversarial resilience. Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems.
+
+Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed-funded by HK Tech 300 and the HKSTP Ideation Programs, building practical privacy-preserving solutions grounded in cryptographic principles.
 
 # Research Interests
 
-<div style="display: flex; align-items: center; gap: 2rem; margin: 2rem 0 -1rem 0;">
-    <div style="flex: 0.32;">
-        <p>My recent research spans across the security and privacy issues in:</p>
-        <ul>
-            <li>Secure Computation Systems.</li>
-            <li>Anonymous Communication Systems.</li>
-            <li>Privacy-Preserving Analytics & ML.</li>
-            <li>AI/LLM Infrastructure.</li>
+<div style="display: flex; align-items: flex-start; gap: 2.5rem; margin: 2.5rem 0 1rem 0;">
+    <div style="flex: 0.3;">
+        <h4 style="margin: 0 0 1rem 0; color: #2c3e50;">Research Areas</h4>
+        <ul style="margin: 0; padding-left: 1.2rem;">
+            <li style="margin-bottom: 0.5rem;"><strong>Secure Computation</strong></li>
+            <li style="margin-bottom: 0.5rem;"><strong>Anonymous Communication</strong></li>
+            <li style="margin-bottom: 0.5rem;"><strong>Privacy-Preserving Analytics & ML</strong></li>
+            <li style="margin-bottom: 0.5rem;"><strong>Secure AI/LLM Infrastructure</strong></li>
         </ul>
-        <p>The map illustrates the evolution and connections of these research directions.</p>
+        <p style="margin: 1rem 0 0 0; font-size: 0.9em; color: #666; font-style: italic;">The map illustrates the evolution and connections of these research directions.</p>
     </div>
-    <div style="flex: 0.68;">
-        <img src="images/my_maps.png" alt="research_map" width="100%" style="display: block;">
+    <div style="flex: 0.572;">
+        <img src="images/my_maps.png" alt="Research Map" width="100%" style="display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </div>
 </div>
-
-<!-- <div class="accordion">
-
-  <div class="accordion-item">
-    <div class="accordion-header">Secure Computation Systems</div>
-    <div class="accordion-content">
-
-      <div class="paper">
-        <span class="highlight">TEE-assisted Secure Computation:</span> 
-        Verifiable MPC Preprocessing (<b>TIFS'25</b>: Verifiable Silent Preprocessing, <b>CCS'23 Poster</b>: Lightweight TEE-assisted MPC); 
-        Secure RAM Architectures (<b>USENIX Sec'25</b>: H₂O₂RAM - High-Performance Oblivious RAM)
-      </div>
-
-      <div class="paper">
-        <span class="highlight">Anonymous Communication Systems:</span> 
-        Accountable Broadcast (<b>NDSS'25</b>: Ring of Gyges); 
-        Metadata-Private Queries (<b>ICDCS'24</b>: HiddenTor); 
-        Decentralized Messaging (<b>arXiv'25</b>: Metadata-Private Messaging without Coordination)
-      </div>
-
-      <div class="paper">
-        <span class="highlight">Privacy-Preserving Data Analytics:</span> 
-        <b>VLDB'26</b>: Communication-Efficient Multi-Party Shuffle DP
-      </div>
-
-      <div class="paper">
-        <span class="highlight">Privacy-Preserving Machine Learning (PPML):</span> 
-        <b>WISE'24</b>: VizardFL - Private Participation in FL
-      </div>
-
-    </div>
-  </div>
-
-</div> -->
-
-
-<!-- # Research Overview:
-```c++
-Secure Computation Systems
-├── TEE-assisted Secure Computation
-│   ├── Verifiable MPC Preprocessing
-│   │    ├── TIFS'25: Verifiable Silent Preprocessing
-│   │    └── CCS'23 Poster: Lightweight TEE-assisted MPC
-│   └── Secure RAM Architectures
-│        └── USENIX Sec'25: H₂O₂RAM - High-Performance Oblivious RAM
-│
-├── Anonymous Communication Systems
-│   ├── Accountable Broadcast
-│   │    └── NDSS'25: Ring of Gyges
-│   ├── Metadata-Private Queries
-│   │    └── ICDCS'24: HiddenTor
-│   └── Decentralized Messaging
-│        └── arXiv'25: Metadata-Private Messaging without Coordination
-│
-├── Privacy-Preserving Data Analytics
-│    └── VLDB'26: Communication-Efficient Multi-Party Shuffle DP
-│
-└── Privacy-Preserving Machine Learning (PPML)
-     └── WISE'24: VizardFL - Private Participation in FL
-``` -->
 
 <!-- # News
 - *2025.03*: &nbsp;🎉 Our paper "Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware" was accepted by IEEE TIFS'25! 
@@ -118,68 +58,71 @@ Secure Computation Systems
 
 ### Conference Papers
 
-- "[_H2O2RAM: A High-Performance Hierarchical Doubly Oblivious RAM_](https://www.usenix.org/conference/usenixsecurity25/presentation/zheng),"
-Leqian Zheng, Zheng Zhang, **Wentao Dong**, Yao Zhang, Ye Wu, and Cong Wang,
-USENIX Security 2025.
+<!-- - **Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.<br>
+*The 52nd International Conference on Very Large Data Bases (VLDB'26).*
 
-- "[_Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle_](https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/),"
-**Wentao Dong**, Peipei Jiang, Huayi Duan, Cong Wang, Lingchen Zhao, and Qian Wang, ISOC NDSS 2025.
+- **Amulet: Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
+*The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).* -->
 
-- "[_HiddenTor: Toward a User-Centric and Private Query System for Tor BridgeDB_](https://ieeexplore.ieee.org/document/10630991),"
-Yichen Zang, Chengjun Cai, **Wentao Dong**, Lei Xu, and Cong Wang,
-IEEE ICDCS 2024.
+- **H$_2$O$_2$RAM: A High-Performance Hierarchical Doubly Oblivious RAM**, <span style="float:right;"><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/zheng" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+Leqian Zheng, Zheng Zhang, **Wentao Dong**, Yao Zhang, Ye Wu, and Cong Wang.<br>
+*The 34th USENIX Security Symposium (USENIX Security'25).*
 
-- "[_VizardFL: Enabling Private Participation in Federated Learning Systems_](https://link.springer.com/chapter/10.1007/978-981-96-0567-5_18),"
-Yichen Zang, Chengjun Cai, **Wentao Dong**, and Cong Wang,
-WISE 2024.
+- **Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle**, <span style="float:right;"><a href="https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+**Wentao Dong**, Peipei Jiang, Huayi Duan, Cong Wang, Lingchen Zhao, and Qian Wang.<br>
+*The 32nd Network and Distributed System Security Symposium (ISOC NDSS'25).*
 
-- "[_Towards Lightweight TEE-Assisted MPC_](https://dl.acm.org/doi/10.1145/3576915.3624398),"
-**Wentao Dong** and Cong Wang,
-ACM CCS 2023 (Poster).
+- **HiddenTor: Toward a User-Centric and Private Query System for Tor BridgeDB**, <span style="float:right;"><a href="https://ieeexplore.ieee.org/document/10630991" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+Yichen Zang, Chengjun Cai, **Wentao Dong**, Lei Xu, and Cong Wang.<br>
+*The 44th IEEE International Conference on Distributed Computing Systems (IEEE ICDCS'24).*
+
+- **VizardFL: Enabling Private Participation in Federated Learning Systems**, <span style="float:right;"><a href="https://link.springer.com/chapter/10.1007/978-981-96-0567-5_18" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+Yichen Zang, Chengjun Cai, **Wentao Dong**, and Cong Wang.<br>
+*The 25th International Conference on Web Information Systems Engineering (WISE'24).*
+
+- **Poster: Towards Lightweight TEE-Assisted MPC**, <span style="float:right;"><a href="https://dl.acm.org/doi/10.1145/3576915.3624398" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+**Wentao Dong** and Cong Wang.<br>
+*The 30th ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'23).*
 
 ### Journal Papers
 
-- "[_Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware_](https://ieeexplore.ieee.org/document/10938283),"
-**Wentao Dong**, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang,IEEE TIFS 2025.
+- **Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware**, <span style="float:right;"><a href="https://ieeexplore.ieee.org/document/10938283" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+**Wentao Dong**, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang.<br>
+*IEEE Transactions on Information Forensics and Security, Vol. 20 (IEEE TIFS'25).*
 
 ### Preprints
 
-- "[_Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy_](/about),"
-**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee,
-arXiv Preprint (2025).
+- **Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.<br>
+*arXiv Preprint (2025).*
 
-- "[_Metadata-private Messaging without Coordination_](https://arxiv.org/abs/2504.19566),"
+<!-- *The 52nd International Conference on Very Large Data Bases (VLDB'26).* -->
+
+- **Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
+*arXiv Preprint (2025).*
+<!-- *The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).*  -->
+
+- **Metadata-private Messaging without Coordination**, <span style="float:right;"><a href="https://arxiv.org/abs/2504.19566" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 Peipei Jiang, Yihao Wu, Lei Xu, **Wentao Dong**, Peiyuan Chen, Yulong Ming,
-Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
-
-<!-- <span class='anchor' id='-projects'></span>
-# Projects
-- [SCION](https://scion-architecture.net/) (Scalability, Control, and Isolation on Next-generation Networks) Project, Hong Kong Node — Coordination Team Member.
-- [XCrypt](\about) Project, HKSTP & HK Tech 300 Seed-Funded Project — PIC. -->
-
-<!-- - [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+Cong Wang, Xiaohua Jia, and Qian Wang.<br>
+*arXiv Preprint (2025).*
 
 <span class='anchor' id='-experiences'></span>
 # Experiences
 
 ### Educations
-- *2021.03 - now*, City University of Hong Kong, PhD in Computer Science. 
-- *2014.09 - 2018.07*, Shanghai Jiao Tong University, BEng in Computer Science and Technology. 
+- *2021.03 - 2025.07*, City University of Hong Kong, Ph.D. in Computer Science. 
+- *2014.09 - 2018.07*, Shanghai Jiao Tong University, B.Eng. in Computer Science and Technology. 
 
 ### Work Experiences
 - *2020.09 - 2021.03*, City University of Hong Kong, Research Assistant. 
 - *2020.01 - 2020.08*, Sangfor Technologies Inc., Software Engineer.
 - *2018.07 - 2019.12*, Intel Asia-Pacific R&D Center, R&D Engineer.
 - *2018.02 - 2019.06*, Intel Asia-Pacific R&D Center, Software Engineer Intern.
+- *2017.06 - 2017.09*, Lab of Cryptology and Computer Security (LoCCS), Shanghai Jiao Tong University, Research Intern.
 
 <span class='anchor' id='-teaching-and-service'></span>
 # Teaching and Services
@@ -187,15 +130,10 @@ Cong Wang, Xiaohua Jia, and Qian Wang, arXiv Preprint (2025).
 ### Teaching Assistant
 - *2021*, TA for CS3504 IT Professional Placement (Undergraduate).
 - *2022*, TA for CS3402 Database Systems (Undergraduate).
-- *2023,2024,2025*, TA for CS2311 Computer Programming (Undergraduate).
+- *2023,2024*, TA for CS2311 Computer Programming (Undergraduate).
+- *2025*, TA and course developer for CS2311 Computer Programming (Undergraduate).
   
-### Community Services
-- Reviewer for IEEE IoTJ, IEEE TSC.
-- External Reviewer for IEEE S&P, IEEE TDSC, USENIX Security, IEEE INFOCOM, ESORICS, ACM AsiaCCS, IEEE ICDCS, ICICS, WPES, etc.
- 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+### Community Service
+- Serve as a reviewer for IEEE IoTJ, IEEE TSC.
+- Serve as an external reviewer for IEEE S&P, USENIX Security, IEEE INFOCOM, IEEE TDSC, ACM MM, ESORICS, IEEE ICNP, ACM AsiaCCS, IEEE ICDCS, ICICS, WPES, etc.
+- Serve as a student helper for IEEE ICDCS'23.
