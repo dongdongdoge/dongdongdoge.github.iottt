@@ -14,6 +14,10 @@ main:
 
   - title: "Teaching and Services"
     url: "/#-teaching-and-service"
+
+  - title: "Blogs"
+    url: "/blog/"
+
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
 
