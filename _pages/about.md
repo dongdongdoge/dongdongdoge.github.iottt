@@ -99,10 +99,10 @@ Yichen Zang, Chengjun Cai, **Wentao Dong**, and Cong Wang.<br>
 
 <!-- *The 52nd International Conference on Very Large Data Bases (VLDB'26).* -->
 
-- **Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+<!-- - **Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
 *arXiv Preprint (2025).*
-<!-- *The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).*  -->
+*The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).*  -->
 
 - **Metadata-private Messaging without Coordination**, <span style="float:right;"><a href="https://arxiv.org/abs/2504.19566" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 Peipei Jiang, Yihao Wu, Lei Xu, **Wentao Dong**, Peiyuan Chen, Yulong Ming,
