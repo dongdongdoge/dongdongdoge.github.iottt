@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Wentao Dong's Page"
+title: "Wentao's Page"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Wentao DONG (董文韬, pronounced like "when-top-down"), a Postdoctoral Fellow at The Laboratory for AI-Powered Financial Technologies Limited (AIFT). I earned my Ph.D. degree in Computer Science from City University of Hong Kong under the supervision of Prof. Cong Wang. 
+I'm Wentao DONG (董文韬, pronounced like "when-top-down"), a Postdoctoral Fellow at The Laboratory for AI-Powered Financial Technologies Limited (AIFT). I earned my Ph.D. degree in Computer Science from City University of Hong Kong under the supervision of Prof. Cong WANG. 
 
 My research focuses on advancing secure computation—covering multi-party computation, oblivious algorithms, and related techniques—by improving efficiency, enhancing privacy, and achieving robust adversarial resilience. Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems.
 
-Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed-funded by HK Tech 300 and the HKSTP Ideation Programs, building practical privacy-preserving solutions grounded in cryptographic principles.
+Beyond academia, I lead _XCrypt_, a secure computation startup seed-funded by HK Tech 300 and the HKSTP Ideation Programs, building practical privacy-preserving solutions grounded in cryptographic principles.
 
 # Research Interests
 
@@ -54,6 +54,13 @@ Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
 
+### Journal Papers
+
+- **Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware**, <span style="float:right;"><a href="https://ieeexplore.ieee.org/document/10938283" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+<span style="font-size: 0.9em;">**Wentao Dong**, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang.</span><br>
+<span style="font-size: 0.9em; font-style: italic;">IEEE Transactions on Information Forensics and Security, Vol. 20 (IEEE TIFS'25).</span>
+
+
 ### Conference Papers
 
 <!-- - **Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
@@ -66,7 +73,7 @@ Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed
 
 - **H$_2$O$_2$RAM: A High-Performance Hierarchical Doubly Oblivious RAM**, <span style="float:right;"><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/zheng" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">Leqian Zheng, Zheng Zhang, **Wentao Dong**, Yao Zhang, Ye Wu, and Cong Wang.</span><br>
-<span style="font-size: 0.9e m; font-style: italic;">The 34th USENIX Security Symposium (USENIX Security'25).</span>
+<span style="font-size: 0.9em; font-style: italic;">The 34th USENIX Security Symposium (USENIX Security'25).</span>
 
 - **Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle**, <span style="float:right;"><a href="https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">**Wentao Dong**, Peipei Jiang, Huayi Duan, Cong Wang, Lingchen Zhao, and Qian Wang.</span><br>
@@ -84,12 +91,6 @@ Beyond academia, I lead [XCrypt](https://xxx), a secure computation startup seed
 <span style="font-size: 0.9em;">**Wentao Dong** and Cong Wang.</span><br>
 <span style="font-size: 0.9em; font-style: italic;">The 30th ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'23).</span>
 
-### Journal Papers
-
-- **Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware**, <span style="float:right;"><a href="https://ieeexplore.ieee.org/document/10938283" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
-<span style="font-size: 0.9em;">**Wentao Dong**, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">IEEE Transactions on Information Forensics and Security, Vol. 20 (IEEE TIFS'25).</span>
-
 ### Preprints
 
 - **Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
@@ -106,7 +107,7 @@ Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and 
 - **Metadata-private Messaging without Coordination**, <span style="float:right;"><a href="https://arxiv.org/abs/2504.19566" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">Peipei Jiang, Yihao Wu, Lei Xu, **Wentao Dong**, Peiyuan Chen, Yulong Ming,
 Cong Wang, Xiaohua Jia, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).</span>
+<span style="font-size: 0.9em; font-style: italic;">arXiv Preprint (2025).</span>
 
 <span class='anchor' id='-experiences'></span>
 # Experiences
