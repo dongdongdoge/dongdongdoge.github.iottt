@@ -19,9 +19,12 @@ redirect_from:
 
 I'm Wentao DONG (董文韬, pronounced like "when-top-down"), a Postdoctoral Fellow at The Laboratory for AI-Powered Financial Technologies Limited (AIFT). I earned my Ph.D. degree in Computer Science from City University of Hong Kong under the supervision of Prof. Cong WANG. 
 
-My research focuses on advancing secure computation—covering multi-party computation, oblivious algorithms, and related techniques—by improving efficiency, enhancing privacy, and achieving robust adversarial resilience. Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems.
+My research advances secure computation—covering MPC, oblivious algorithms, and adjacent primitives—toward higher efficiency, stronger privacy, and adversarial robustness. Recently, I have pursued upward extensions to the application layer (especially the secure AI/LLM infrastructure and private <span style="color:rgb(207, 205, 205);">Non-</span>KYC services for the stablecoin ecosystem) and downward extensions to the fundamental network/computation layer (architectures optimized/aligned for secure computation).
 
-Beyond academia, I lead _XCrypt_, a secure computation startup seed-funded by HK Tech 300 and the HKSTP Ideation Programs, building practical privacy-preserving solutions grounded in cryptographic principles.
+<!-- My research focuses on advancing secure computation—covering multi-party computation, oblivious algorithms, and related techniques—by improving efficiency, enhancing privacy, and achieving robust adversarial resilience. Recently, I have been exploring secure infrastructure for trustworthy LLM/AI ecosystems. -->
+
+Beyond academia, I also work on several "research-to-impact" initiatives that aim to translate privacy and security research into deployable systems and industry collaborations.
+<!-- I lead several ventures. _XCrypt@CityUHK_, a secure computation startup seed-funded by the HK Tech 300-HKSTP Ideation Joint Programs, focuses on building practical, privacy-preserving solutions grounded in cryptographic principles. Concurrently, I am also working on _NexaGuard Labs@HKUST-GZ_, which specializes in secure, auditable intelligent network routing services for the next-generation Internet. -->
 
 # Research Interests
 
@@ -31,12 +34,12 @@ Beyond academia, I lead _XCrypt_, a secure computation startup seed-funded by HK
 
 - **Privacy-Preserving Analytics & ML** (Multi-Party Computation, Differential Privacy, Secure Inference/Training, etc.)
 
-- **Secure AI/LLM Infrastructure** (LLM Toolchain Security, etc.)
+<!-- - **Secure AI/LLM Infrastructure** (LLM Toolchain Security, etc.) -->
 
-<p style="margin: 0 0 2rem 0; font-size: 0.9em; color: #666; font-style: italic;">The figure below simply illustrates the evolution and connections of all these research directions.</p>
+<p style="margin: 0 0 2rem 0; font-size: 0.9em; color: #666; font-style: italic;">The figure below depicts how my research directions are interconnected and how they collectively drive research-to-impact.</p>
 
 <div style="text-align: center;">
-    <img src="images/my_maps.png" alt="Research Map" style="width: 90%; height: auto;">
+    <img src="images/myall.png" alt="Research Map" style="width: 100%; height: auto;">
 </div>
 
 <!-- # News
@@ -63,13 +66,9 @@ Beyond academia, I lead _XCrypt_, a secure computation startup seed-funded by HK
 
 ### Conference Papers
 
-<!-- - **Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+- **Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
 <span style="font-size: 0.9em; font-style: italic;">The 52nd International Conference on Very Large Data Bases (VLDB'26).</span>
-
-- **Amulet: Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
-<span style="font-size: 0.9em;">Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).</span> -->
 
 - **H$_2$O$_2$RAM: A High-Performance Hierarchical Doubly Oblivious RAM**, <span style="float:right;"><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/zheng" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">Leqian Zheng, Zheng Zhang, **Wentao Dong**, Yao Zhang, Ye Wu, and Cong Wang.</span><br>
@@ -93,11 +92,11 @@ Beyond academia, I lead _XCrypt_, a secure computation startup seed-funded by HK
 
 ### Preprints
 
-- **Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
+<!-- - **Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 <span style="font-size: 0.9em;">**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
 <span style="font-size: 0.9em; font-style: italic;">arXiv Preprint (2025).</span>
 
-<!-- *The 52nd International Conference on Very Large Data Bases (VLDB'26).* -->
+*The 52nd International Conference on Very Large Data Bases (VLDB'26).* -->
 
 <!-- - **Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
 Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
