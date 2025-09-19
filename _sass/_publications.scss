@@ -1,0 +1,287 @@
+/* ==========================================================================
+   PUBLICATIONS STYLES
+   ========================================================================== */
+
+/* Conference/Journal Color Scheme */
+$ieee-tifs-color: #0066cc;
+$usenix-color: #d73527;
+$ndss-color: #1f4e79;
+$vldb-color: #2e7d32;
+$icdcs-color: #f57c00;
+$wise-color: #7b1fa2;
+$ccs-color: #1976d2;
+$arxiv-color: #b71c1c;
+
+/* Publication Card Styles */
+.publications-container {
+  margin: 2em 0;
+}
+
+.publication-section {
+  margin-bottom: 3em;
+  
+  h3 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+}
+
+.publication-card {
+  background: #ffffff;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #3498db;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+
+  /* Conference-specific colors */
+  &.ieee-tifs::before { background: linear-gradient(135deg, $ieee-tifs-color, darken($ieee-tifs-color, 10%)); }
+  &.usenix::before { background: linear-gradient(135deg, $usenix-color, darken($usenix-color, 10%)); }
+  &.ndss::before { background: linear-gradient(135deg, $ndss-color, darken($ndss-color, 10%)); }
+  &.vldb::before { background: linear-gradient(135deg, $vldb-color, darken($vldb-color, 10%)); }
+  &.icdcs::before { background: linear-gradient(135deg, $icdcs-color, darken($icdcs-color, 10%)); }
+  &.wise::before { background: linear-gradient(135deg, $wise-color, darken($wise-color, 10%)); }
+  &.ccs::before { background: linear-gradient(135deg, $ccs-color, darken($ccs-color, 10%)); }
+  &.arxiv::before { background: linear-gradient(135deg, $arxiv-color, darken($arxiv-color, 10%)); }
+}
+
+.publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  gap: 1em;
+}
+
+.publication-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.4;
+  margin: 0;
+  flex: 1;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #3498db;
+    }
+  }
+}
+
+.publication-links {
+  display: flex;
+  gap: 0.5em;
+  flex-shrink: 0;
+}
+
+.publication-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  color: #6c757d;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+
+  &:hover {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+    transform: translateY(-1px);
+  }
+
+  i {
+    font-size: 14px;
+  }
+}
+
+/* Paper link text style */
+.paper-link {
+  color: #0587de;
+  text-decoration: none;
+  padding: 1px 2px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-right: 0; /* Remove right margin */
+  
+  &:hover {
+    background-color: rgba(5, 135, 222, 0.1);
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  /* Remove spacing between consecutive paper links */
+  + .paper-link {
+    margin-left: 0;
+  }
+}
+
+/* Gray link style for [To appear], [Code], [Demo] etc. */
+.paper-link-gray {
+  color: rgb(123, 127, 130);
+  text-decoration: none;
+  padding: 1px 2px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-right: 0;
+  
+  &:hover {
+    background-color: rgba(123, 127, 130, 0.1);
+    color: rgb(100, 104, 107);
+    text-decoration: none;
+  }
+  
+  /* Remove spacing between consecutive links */
+  + .paper-link,
+  + .paper-link-gray {
+    margin-left: 0;
+  }
+}
+
+.publication-authors {
+  color: #5a6c7d;
+  font-size: 0.95em;
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+  
+  strong {
+    color: #2c3e50;
+    font-weight: 600;
+  }
+}
+
+.publication-venue {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  font-size: 0.9em;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.venue-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+  &.ieee-tifs { background: $ieee-tifs-color; }
+  &.usenix { background: $usenix-color; }
+  &.ndss { background: $ndss-color; }
+  &.vldb { background: $vldb-color; }
+  &.icdcs { background: $icdcs-color; }
+  &.wise { background: $wise-color; }
+  &.ccs { background: $ccs-color; }
+  &.arxiv { background: $arxiv-color; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .publication-card {
+    padding: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  
+  .publication-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.8em;
+  }
+  
+  .publication-links {
+    align-self: flex-end;
+  }
+  
+  .publication-title {
+    font-size: 1.05em;
+  }
+  
+  .publication-venue {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .publication-card {
+    padding: 1em;
+    border-radius: 8px;
+  }
+  
+  .publication-title {
+    font-size: 1em;
+  }
+  
+  .publication-authors {
+    font-size: 0.9em;
+  }
+  
+  .publication-venue {
+    font-size: 0.85em;
+  }
+}
+
+/* Animation for card appearance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.publication-card {
+  animation: fadeInUp 0.6s ease-out;
+  
+  &:nth-child(1) { animation-delay: 0.1s; }
+  &:nth-child(2) { animation-delay: 0.2s; }
+  &:nth-child(3) { animation-delay: 0.3s; }
+  &:nth-child(4) { animation-delay: 0.4s; }
+  &:nth-child(5) { animation-delay: 0.5s; }
+  &:nth-child(6) { animation-delay: 0.6s; }
+}
