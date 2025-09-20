@@ -56,54 +56,118 @@ Beyond academia, I also work on several "research-to-impact" initiatives that ai
 
 ### Journal Papers
 
-- **Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware**,<br>
-<span style="font-size: 0.9em;">**Wentao Dong**, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">IEEE Transactions on Information Forensics and Security, Vol. 20 (IEEE TIFS'25).</span><span style="font-size: 0.9em;"><a href="https://ieeexplore.ieee.org/document/10938283" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>Do Not Skip over the Offline: Verifiable Silent Preprocessing from Small Security Hardware</strong>,<br>
+    <span style="font-size: 0.9em;"><span style="font-weight: bold;">Wentao Dong</span>, Lei Xu, Leqian Zheng, Huayi Duan, Cong Wang, and Qian Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">IEEE Transactions on Information Forensics and Security, Vol. 20 (IEEE TIFS'25).</span>
+    <span style="font-size: 0.9em;"><a href="https://ieeexplore.ieee.org/document/10938283" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/hpcgarch.jpg" alt="Publication thumbnail">
+  </div>
+  </div>
 
 
 ### Conference Papers
 
-- **Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**,<br>
-<span style="font-size: 0.9em;">**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 52nd International Conference on Very Large Data Bases (VLDB'26).</span><span style="font-size: 0.9em;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link-gray">[To appear]</a><a href="https://github.com/dongdongdoge/mpsdp.git" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link-gray">[Code]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy</strong>,<br>
+    <span style="font-size: 0.9em;"><span style="font-weight: bold;">Wentao Dong</span>, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 52nd International Conference on Very Large Data Bases (VLDB'26).</span>
+    <span style="font-size: 0.9em;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link-gray">[To appear]</a><a href="https://github.com/dongdongdoge/mpsdp.git" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link-gray">[Code]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/vldb_doppio_archfig.jpg" alt="Doppio thumbnail">
+  </div>
+  </div>
 
-- **H$_2$O$_2$RAM: A High-Performance Hierarchical Doubly Oblivious RAM**,<br>
-<span style="font-size: 0.9em;">Leqian Zheng, Zheng Zhang, **Wentao Dong**, Yao Zhang, Ye Wu, and Cong Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 34th USENIX Security Symposium (USENIX Security'25).</span><span style="font-size: 0.9em;"><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/zheng" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="https://github.com/55199789/ORAM.git" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Code]</a><a href="/others/H2O2RAM_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a><a href="/others/H2O2RAM_Slides.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Slides]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>H$_2$O$_2$RAM: A High-Performance Hierarchical Doubly Oblivious RAM</strong>,<br>
+    <span style="font-size: 0.9em;">Leqian Zheng, Zheng Zhang, <span style="font-weight: bold;">Wentao Dong</span>, Yao Zhang, Ye Wu, and Cong Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 34th USENIX Security Symposium (USENIX Security'25).</span>
+    <span style="font-size: 0.9em;"><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/zheng" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="https://github.com/55199789/ORAM.git" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Code]</a><a href="/others/H2O2RAM_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a><a href="/others/H2O2RAM_Slides.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Slides]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/horam.png" alt="H2O2RAM thumbnail">
+  </div>
+  </div>
 
-- **Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle**,<br>
-<span style="font-size: 0.9em;">**Wentao Dong**, Peipei Jiang, Huayi Duan, Cong Wang, Lingchen Zhao, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 32nd Network and Distributed System Security Symposium (NDSS'25).</span><span style="font-size: 0.9em;"><a href="https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="/others/NDSS25_Demo_compressed.mp4" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Demo]</a><a href="/others/NDSS25_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a><a href="/others/NDSS25_Slides.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Slides]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle</strong>,<br>
+    <span style="font-size: 0.9em;"><span style="font-weight: bold;">Wentao Dong</span>, Peipei Jiang, Huayi Duan, Cong Wang, Lingchen Zhao, and Qian Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 32nd Network and Distributed System Security Symposium (NDSS'25).</span>
+    <span style="font-size: 0.9em;"><a href="https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="/others/NDSS25_Demo_compressed.mp4" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Demo]</a><a href="/others/NDSS25_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a><a href="/others/NDSS25_Slides.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Slides]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/gyges.png" alt="Ring of Gyges thumbnail">
+  </div>
+  </div>
 
-- **HiddenTor: Toward a User-Centric and Private Query System for Tor BridgeDB**,<br>
-<span style="font-size: 0.9em;">Yichen Zang, Chengjun Cai, **Wentao Dong**, Lei Xu, and Cong Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 44th IEEE International Conference on Distributed Computing Systems (IEEE ICDCS'24).</span><span style="font-size: 0.9em;"><a href="https://ieeexplore.ieee.org/document/10630991" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>HiddenTor: Toward a User-Centric and Private Query System for Tor BridgeDB</strong>,<br>
+    <span style="font-size: 0.9em;">Yichen Zang, Chengjun Cai, <span style="font-weight: bold;">Wentao Dong</span>, Lei Xu, and Cong Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 44th IEEE International Conference on Distributed Computing Systems (IEEE ICDCS'24).</span>
+    <span style="font-size: 0.9em;"><a href="https://ieeexplore.ieee.org/document/10630991" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/hiddentor.png" alt="HiddenTor thumbnail">
+  </div>
+  </div>
 
-- **VizardFL: Enabling Private Participation in Federated Learning Systems**,<br>
-<span style="font-size: 0.9em;">Yichen Zang, Chengjun Cai, **Wentao Dong**, and Cong Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 25th International Conference on Web Information Systems Engineering (WISE'24).</span><span style="font-size: 0.9em;"><a href="https://link.springer.com/chapter/10.1007/978-981-96-0567-5_18" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>VizardFL: Enabling Private Participation in Federated Learning Systems</strong>,<br>
+    <span style="font-size: 0.9em;">Yichen Zang, Chengjun Cai, <span style="font-weight: bold;">Wentao Dong</span>, and Cong Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 25th International Conference on Web Information Systems Engineering (WISE'24).</span>
+    <span style="font-size: 0.9em;"><a href="https://link.springer.com/chapter/10.1007/978-981-96-0567-5_18" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/vfl.png" alt="VizardFL thumbnail">
+  </div>
+  </div>
 
-- **Poster: Towards Lightweight TEE-Assisted MPC**,<br>
-<span style="font-size: 0.9em;">**Wentao Dong** and Cong Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">The 30th ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'23).</span><span style="font-size: 0.9em;"><a href="https://dl.acm.org/doi/10.1145/3576915.3624398" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="/others/CCS23_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a></span>
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>Poster: Towards Lightweight TEE-Assisted MPC</strong>,<br>
+    <span style="font-size: 0.9em;"><span style="font-weight: bold;">Wentao Dong</span> and Cong Wang.</span><br>
+    <span style="font-size: 0.9em; font-style: italic;">The 30th ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'23).</span>
+    <span style="font-size: 0.9em;"><a href="https://dl.acm.org/doi/10.1145/3576915.3624398" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a><a href="/others/CCS23_Poster.pdf" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Poster]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/h-pcg.png" alt="CCS Poster thumbnail">
+  </div>
+  </div>
 
 ### Preprints
 
 <!-- - **Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
-<span style="font-size: 0.9em;">**Wentao Dong**, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
+<span style="font-size: 0.9em;"><span style="font-weight: bold;">Wentao Dong</span>, Yang Cao, Cong Wang, and Wei-Bin Lee.</span><br>
 <span style="font-size: 0.9em; font-style: italic;">arXiv Preprint (2025).</span>
 
 *The 52nd International Conference on Very Large Data Bases (VLDB'26).* -->
 
 <!-- - **Fast TEE-Shielded Inference for On-Device Model Protection**, <span style="float:right;"><a href="/about" target="_blank" rel="noopener" aria-label="external link" title="Open link" style="color: #007acc; text-decoration: none; padding: 4px 8px; border-radius: 4px; transition: all 0.2s ease;"><i class="fas fa-external-link-alt" style="font-size: 14px;"></i></a></span><span style="display:block; clear:both;"></span>
-Zikai Mao, Lingchen Zhao, Lei Xu, **Wentao Dong**, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
+Zikai Mao, Lingchen Zhao, Lei Xu, <span style="font-weight: bold;">Wentao Dong</span>, Shenyi Zhang, Cong Wang, and Qian Wang.<br>
 *arXiv Preprint (2025).*
 *The 32nd ACM SIGSAC Conference on Computer and Communications Security (ACM CCS'25).*  -->
 
-- **Metadata-private Messaging without Coordination**,<br>
-<span style="font-size: 0.9em;">Peipei Jiang, Yihao Wu, Lei Xu, **Wentao Dong**, Peiyuan Chen, Yulong Ming,
+<div class="publication-item">
+  <div class="pub-content">
+    <strong>Metadata-private Messaging without Coordination</strong>,<br>
+    <span style="font-size: 0.9em;">Peipei Jiang, Yihao Wu, Lei Xu, <span style="font-weight: bold;">Wentao Dong</span>, Peiyuan Chen, Yulong Ming,
 Cong Wang, Xiaohua Jia, and Qian Wang.</span><br>
-<span style="font-size: 0.9em; font-style: italic;">arXiv Preprint (2025).</span><span style="font-size: 0.9em;"><a href="https://arxiv.org/abs/2504.19566" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+    <span style="font-size: 0.9em; font-style: italic;">arXiv Preprint (2025).</span>
+    <span style="font-size: 0.9em;"><a href="https://arxiv.org/abs/2504.19566" target="_blank" rel="noopener" aria-label="external link" title="Open link" class="paper-link">[Paper]</a></span>
+  </div>
+  <div class="pub-media">
+    <img src="/others/pingpong.png" alt="Preprint thumbnail">
+  </div>
+  </div>
 
 <span class='anchor' id='-experiences'></span>
 # Experiences
@@ -113,6 +177,7 @@ Cong Wang, Xiaohua Jia, and Qian Wang.</span><br>
 - *2014.09 - 2018.07*, Shanghai Jiao Tong University, B.Eng. in Computer Science and Technology. 
 
 ### Work Experiences
+- *2025.09 - Present*, Postdoctoral Fellow, The Laboratory for AI-Powered Financial Technologies Limited (AIFT). 
 - *2020.09 - 2021.03*, City University of Hong Kong, Research Assistant. 
 - *2020.01 - 2020.08*, Sangfor Technologies Inc., Software Engineer.
 - *2018.07 - 2019.12*, Intel Asia-Pacific R&D Center, R&D Engineer.

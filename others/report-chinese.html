@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全计算：用户需求与期望</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F9FA;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .flow-arrow::after {
+            content: '→';
+            font-size: 2rem;
+            color: #F28F3B;
+            margin: 0 1rem;
+        }
+         .flow-arrow:last-child::after {
+            content: '';
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black text-[#070600] mb-2">安全计算用户需求洞察</h1>
+            <p class="text-lg md:text-xl text-[#60495A]">关于个人隐私关注与技术期望的信息图</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section id="sensitivity" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#070600] mb-4">发现1：数据的敏感度有显著差异</h2>
+                        <p class="text-base text-[#60495A] mb-4">
+                            调查显示，用户对不同数据类型的隐私敏感度存在清晰的层级。对于直接关系到其财务、身体和个人身份的数据，用户表现出极高的保护需求。这为安全应用的优先级设计提供了明确的指引。
+                        </p>
+                        <p class="text-base text-[#60495A]">
+                            <strong class="text-[#E84855]">核心洞察：</strong> 安全计算应用必须首先解决金融、生物识别和健康等高敏感度数据的安全问题，才能赢得用户信任。
+                        </p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="sensitivityChart"></canvas>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="expectations" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 md:order-1">
+                        <h3 class="text-2xl font-bold text-[#070600] mb-4">用户优先级：控制权高于功能</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start"><span class="text-3xl text-[#00A6A6] mr-4">🥇</span><div><strong class="block">数据不可见性：</strong> 用户最核心的需求是确保自己的数据在任何时候都无法被他人看到。</div></li>
+                            <li class="flex items-start"><span class="text-3xl text-[#F28F3B] mr-4">🥈</span><div><strong class="block">访问控制：</strong> 用户希望能够对谁能访问他们的数据以及访问哪些部分有精确的控制。</div></li>
+                            <li class="flex items-start"><span class="text-3xl text-[#E84855] mr-4">🥉</span><div><strong class="block">防泄露保护：</strong> 第三位优先级是强大的数据防泄露和防黑客攻击的能力。</div></li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h2 class="text-3xl font-bold text-[#070600] mb-4">发现2：用户对“数据主权”的核心期望</h2>
+                        <p class="text-base text-[#60495A] mb-4">
+                            用户并不关心“同态加密”等底层技术有多复杂。相反，他们的期望集中在看得见的结果上：控制、不可见和保护。
+                        </p>
+                         <p class="text-base text-[#60495A]">
+                            <strong class="text-[#E84855]">核心洞察：</strong> 安全应用的营销和用户体验应侧重于赋能用户和建立信任，而非突出技术术语。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tradeoffs" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#070600] text-center mb-4">发现3：隐私的代价</h2>
+                <p class="text-base text-[#60495A] text-center max-w-3xl mx-auto mb-8">
+                    用户愿意为增强的隐私保护做出牺牲，但他们的容忍度有明确的界限。他们接受“看不见的”成本，如略微变慢的性能，但对“看得见的”负担，如复杂界面或额外费用，则表现出明显抗拒。
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                            <canvas id="performanceTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">性能下降</h3>
+                        <p class="text-sm text-[#60495A]">用户对微小的延迟有较高的接受度。</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                            <canvas id="accuracyTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">精度略微下降</h3>
+                        <p class="text-sm text-[#60495A]">愿意为了隐私而牺牲完美的结果。</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                             <canvas id="complexityTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">使用复杂性增加</h3>
+                        <p class="text-sm text-[#60495A]">对复杂的用户体验有强烈抗拒。</p>
+                    </div>
+                     <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                             <canvas id="costTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">更高的费用</h3>
+                         <p class="text-sm text-[#60495A]">用户为安全功能额外付费的意愿很低。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recommendations" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#070600] text-center mb-4">未来之路：成功蓝图</h2>
+                <p class="text-base text-[#60495A] text-center max-w-3xl mx-auto mb-12">
+                    这些发现为开发成功的安全计算应用提供了清晰、以用户为中心的路线图。重点必须从技术驱动的功能转移到建立信任的体验上。
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center text-center">
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#00A6A6] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">1. 建立信任，而非堆砌技术</h3>
+                            <p class="text-sm">将产品核心价值定位为用户控制和数据主权。</p>
+                        </div>
+                    </div>
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#F28F3B] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">2. 战略性地管理权衡</h3>
+                            <p class="text-sm">将复杂性内部化。优先考虑无缝的用户体验而非原始性能。</p>
+                        </div>
+                    </div>
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#E84855] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">3. 聚焦核心用例</h3>
+                            <p class="text-sm">优先关注金融和医疗等高敏感度领域，在这些领域隐私至关重要。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-12 pt-8 border-t border-gray-300">
+            <p class="text-sm text-[#60495A]">数据和洞察来自“安全计算用户需求与期望报告”，基于对75位数字公民的调查。</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const FONT_COLOR = '#070600';
+        const GRID_COLOR = '#D1D5DB';
+        const PALETTE = {
+            teal: '#00A6A6',
+            orange: '#F28F3B',
+            red: '#E84855',
+            gray: '#60495A',
+        };
+
+        const wrapLabel = (label) => {
+            if (label.length <= 16) return label;
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).length > 16 && currentLine.length > 0) {
+                    lines.push(currentLine);
+                    currentLine = word;
+                } else {
+                    currentLine = currentLine ? currentLine + ' ' + word : word;
+                }
+            }
+            if (currentLine) lines.push(currentLine);
+            return lines;
+        };
+        
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            }
+            return label;
+        };
+
+        const createChart = (ctx, config) => {
+            if (ctx) new Chart(ctx, config);
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            const sensitivityData = {
+                labels: ['金融数据', '生物识别信息', '健康数据', '个人身份信息', '位置信息', '社交数据', '用户行为数据'].map(wrapLabel),
+                datasets: [{
+                    label: '敏感度得分 (满分5分)',
+                    data: [4.9, 4.8, 4.7, 4.1, 3.9, 3.6, 3.2],
+                    backgroundColor: [PALETTE.teal, PALETTE.teal, PALETTE.teal, PALETTE.orange, PALETTE.orange, PALETTE.red, PALETTE.red],
+                    borderColor: 'rgba(0,0,0,0.1)',
+                    borderWidth: 1
+                }]
+            };
+            const sensitivityConfig = {
+                type: 'bar',
+                data: sensitivityData,
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        title: { display: true, text: '数据隐私敏感度得分 (平均分，满分5分)', color: FONT_COLOR, font: { size: 16 } },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, max: 5, grid: { color: GRID_COLOR }, ticks: { color: FONT_COLOR } },
+                        y: { grid: { display: false }, ticks: { color: FONT_COLOR, font: { size: 12 } } }
+                    }
+                }
+            };
+            createChart(document.getElementById('sensitivityChart'), sensitivityConfig);
+
+            const createTradeoffChart = (id, label, accepted, rejected, color) => {
+                const data = {
+                    labels: ['接受', '拒绝'],
+                    datasets: [{
+                        data: [accepted, rejected],
+                        backgroundColor: [color, '#E5E7EB'],
+                        borderColor: '#F8F9FA',
+                        borderWidth: 2
+                    }]
+                };
+                const config = {
+                    type: 'doughnut',
+                    data: data,
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: `${accepted}% 接受`,
+                                color: FONT_COLOR,
+                                font: { size: 18, weight: 'bold' },
+                                position: 'bottom'
+                            }
+                        },
+                        cutout: '70%'
+                    }
+                };
+                 createChart(document.getElementById(id), config);
+            };
+
+            createTradeoffChart('performanceTradeoffChart', '性能', 78.7, 21.3, PALETTE.teal);
+            createTradeoffChart('accuracyTradeoffChart', '精度', 72.0, 28.0, PALETTE.teal);
+            createTradeoffChart('complexityTradeoffChart', '复杂性', 30.1, 69.9, PALETTE.red);
+            createTradeoffChart('costTradeoffChart', '费用', 25.3, 74.7, PALETTE.red);
+        });
+    </script>
+</body>
+</html>

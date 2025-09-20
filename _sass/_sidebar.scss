@@ -49,6 +49,64 @@
   }
 }
 
+/* X-Crypt sidebar enhancements */
+body.xcrypt-mode .sidebar {
+  position: sticky;
+  top: 84px;
+  padding: 1rem 1rem;
+  border: 1px solid rgba(15, 27, 64, 0.08);
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+body.xcrypt-mode .sidebar .author__urls {
+  display: block !important;
+  position: relative;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Section heading */
+body.xcrypt-mode .sidebar h4 {
+  margin: .5rem 0 .6rem 0;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: #0f2b5e;
+}
+
+/* Link list */
+body.xcrypt-mode .sidebar li {
+  margin: .15rem 0;
+}
+
+body.xcrypt-mode .sidebar li a {
+  display: block;
+  padding: .35rem .4rem;
+  border-radius: 6px;
+  color: #193a73;
+  text-decoration: none;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+body.xcrypt-mode .sidebar li a:hover {
+  background-color: rgba(15, 107, 255, 0.08);
+  color: #0f6bff;
+}
+
+/* Subtle dividers between logical groups */
+body.xcrypt-mode .sidebar .author__urls > li:first-child {
+  padding-top: .25rem;
+}
+body.xcrypt-mode .sidebar .author__urls > li + li {
+  border-top: 1px dashed rgba(15, 27, 64, 0.06);
+  padding-top: .35rem;
+  margin-top: .35rem;
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 

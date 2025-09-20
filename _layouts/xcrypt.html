@@ -1,0 +1,70 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="xcrypt-mode">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+    <div class="xcrypt-progress"><div class="bar" id="xpbar"></div></div>
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+    <script>
+      (function(){
+        var bar = document.getElementById('xpbar');
+        if(!bar) return;
+        function onScroll(){
+          var h = document.documentElement;
+          var st = h.scrollTop || document.body.scrollTop;
+          var sh = h.scrollHeight - h.clientHeight;
+          var p = sh ? (st / sh) * 100 : 0;
+          bar.style.width = p + '%';
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Scrollspy for subnav
+        var links = Array.prototype.slice.call(document.querySelectorAll('.xcrypt-subnav a'));
+        var sections = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+        function spy(){
+          var fromTop = window.scrollY + 100;
+          var active;
+          sections.forEach(function(sec, i){
+            if(sec.offsetTop <= fromTop) active = links[i];
+          });
+          links.forEach(function(a){ a.classList.remove('active'); });
+          if(active) active.classList.add('active');
+        }
+        window.addEventListener('scroll', spy, { passive: true });
+        spy();
+
+        // Reveal on scroll
+        var reveals = document.querySelectorAll('.reveal');
+        var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(ents){
+          ents.forEach(function(ent){ if(ent.isIntersecting){ ent.target.classList.add('is-visible'); io.unobserve(ent.target); } });
+        }, { threshold: 0.12 }) : null;
+        if(io){ reveals.forEach(function(el){ io.observe(el); }); }
+      })();
+    </script>
+  </body>
+  </html>
+
+

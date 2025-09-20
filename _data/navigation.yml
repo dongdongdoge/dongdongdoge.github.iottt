@@ -5,3 +5,12 @@ main:
 
   - title: "Blogs"
     url: "/blog/"
+
+  - title: "X-Crypt"
+    url: "/x-crypt/"
+
+  - title: "NexaGuard Labs"
+    url: "/nexaguard/"
+
+  - title: "Stable Lens"
+    url: "/stable-lens/"

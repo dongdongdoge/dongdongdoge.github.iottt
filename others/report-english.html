@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Computing: User Needs and Expectations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F9FA;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .flow-arrow::after {
+            content: '→';
+            font-size: 2rem;
+            color: #F28F3B;
+            margin: 0 1rem;
+        }
+         .flow-arrow:last-child::after {
+            content: '';
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 
+    Chosen Color Palette: Energetic & Playful
+    Primary: #00A6A6 (Teal)
+    Secondary: #F28F3B (Orange)
+    Accent: #E84855 (Red)
+    Neutral: #60495A (Purple-Gray)
+    Text/Background: #070600 (Black), #F8F9FA (Off-white)
+
+    Narrative Plan:
+    1. Introduction: Hook the user with the core question.
+    2. Data Sensitivity: Show that users have clear priorities about what data to protect.
+    3. Core Expectations: Reveal that "control" is more important than technical features.
+    4. Acceptable Trade-offs: Show what users are willing to sacrifice for privacy.
+    5. Recommendations: Provide a clear path forward based on the data.
+    
+    Visualization Plan:
+    - Data Sensitivity -> Goal: Compare -> Visualization: Horizontal Bar Chart (Chart.js). Justification: Best for ranking categories. NO SVG.
+    - Core Expectations -> Goal: Organize -> Visualization: Styled HTML/CSS List. Justification: Clear, simple ranking. NO SVG.
+    - Trade-offs -> Goal: Compare/Inform -> Visualization: Donut Charts (Chart.js). Justification: Excellent for part-to-whole data. NO SVG.
+    - Recommendations -> Goal: Organize Process -> Visualization: HTML/CSS Flow Diagram. Justification: Shows logical flow without SVG or Mermaid JS.
+
+    Confirmation: NEITHER Mermaid JS NOR SVG were used in this file.
+    -->
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black text-[#070600] mb-2">Cracking the Code of Secure Computing</h1>
+            <p class="text-lg md:text-xl text-[#60495A]">An Infographic on User Privacy Concerns and Technology Expectations</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section id="sensitivity" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#070600] mb-4">Finding 1: Not All Data is Equal</h2>
+                        <p class="text-base text-[#60495A] mb-4">
+                            The survey reveals a clear hierarchy in data privacy sensitivity. Users show extreme concern for data directly tied to their financial, physical, and personal identity, viewing it as a non-negotiable core to be protected. This provides a clear roadmap for prioritizing security features in new applications.
+                        </p>
+                        <p class="text-base text-[#60495A]">
+                            <strong class="text-[#E84855]">Key Takeaway:</strong> Secure computing applications must first and foremost address the safety of financial, biometric, and health data to earn user trust.
+                        </p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="sensitivityChart"></canvas>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="expectations" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 md:order-1">
+                        <h3 class="text-2xl font-bold text-[#070600] mb-4">User Priorities: Control Over Features</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start"><span class="text-3xl text-[#00A6A6] mr-4">🥇</span><div><strong class="block">Data Invisibility:</strong> The highest user demand is the absolute guarantee that their data cannot be seen by others.</div></li>
+                            <li class="flex items-start"><span class="text-3xl text-[#F28F3B] mr-4">🥈</span><div><strong class="block">Access Control:</strong> Users want granular control over who can access their data and for what purpose.</div></li>
+                            <li class="flex items-start"><span class="text-3xl text-[#E84855] mr-4">🥉</span><div><strong class="block">Leakage Protection:</strong> The third priority is robust protection against breaches and unauthorized sharing.</div></li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h2 class="text-3xl font-bold text-[#070600] mb-4">Finding 2: The Core Expectation is "Data Sovereignty"</h2>
+                        <p class="text-base text-[#60495A] mb-4">
+                            Users are not concerned with the underlying complexity of technologies like "homomorphic encryption." Instead, their expectations are centered on tangible outcomes: control, invisibility, and protection.
+                        </p>
+                         <p class="text-base text-[#60495A]">
+                            <strong class="text-[#E84855]">Key Takeaway:</strong> The marketing and UX of secure applications should focus on empowering users and building trust, rather than highlighting technical jargon.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tradeoffs" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#070600] text-center mb-4">Finding 3: The Price of Privacy</h2>
+                <p class="text-base text-[#60495A] text-center max-w-3xl mx-auto mb-8">
+                    Users are willing to make sacrifices for enhanced privacy, but their tolerance has clear limits. They accept "invisible" costs like slightly slower performance but reject "visible" burdens like a complex interface or extra fees.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                            <canvas id="performanceTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">Slower Performance</h3>
+                        <p class="text-sm text-[#60495A]">High acceptance for minor delays.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                            <canvas id="accuracyTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">Slightly Lower Accuracy</h3>
+                        <p class="text-sm text-[#60495A]">Willingness to trade perfect results for privacy.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                             <canvas id="complexityTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">Increased Complexity</h3>
+                        <p class="text-sm text-[#60495A]">Strong resistance to a difficult user experience.</p>
+                    </div>
+                     <div class="text-center">
+                        <div class="chart-container h-64 max-h-64 sm:h-56 sm:max-h-56">
+                             <canvas id="costTradeoffChart"></canvas>
+                        </div>
+                        <h3 class="font-bold mt-4">Higher Cost</h3>
+                         <p class="text-sm text-[#60495A]">Low willingness to pay extra for privacy features.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recommendations" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#070600] text-center mb-4">The Path Forward: A Blueprint for Success</h2>
+                <p class="text-base text-[#60495A] text-center max-w-3xl mx-auto mb-12">
+                    These findings provide a clear, user-centric roadmap for developing successful secure computing applications. The focus must shift from technology-driven features to trust-building experiences.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center text-center">
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#00A6A6] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">1. Build Trust, Not Tech</h3>
+                            <p class="text-sm">Focus product messaging on user control and data sovereignty.</p>
+                        </div>
+                    </div>
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#F28F3B] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">2. Manage Trade-offs</h3>
+                            <p class="text-sm">Internalize complexity. Prioritize a seamless user experience over raw performance.</p>
+                        </div>
+                    </div>
+                    <div class="flow-arrow mb-4 md:mb-0">
+                        <div class="bg-[#E84855] text-white p-4 rounded-lg shadow-lg">
+                            <h3 class="font-bold">3. Target Core Use Cases</h3>
+                            <p class="text-sm">Focus on high-sensitivity areas like finance and health where privacy is paramount.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-12 pt-8 border-t border-gray-300">
+            <p class="text-sm text-[#60495A]">Data and insights derived from the "Secure Computing User Needs and Expectations Report," based on a survey of 75 digital citizens.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const FONT_COLOR = '#070600';
+        const GRID_COLOR = '#D1D5DB';
+        const PALETTE = {
+            teal: '#00A6A6',
+            orange: '#F28F3B',
+            red: '#E84855',
+            gray: '#60495A',
+        };
+
+        const wrapLabel = (label) => {
+            if (label.length <= 16) return label;
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).length > 16 && currentLine.length > 0) {
+                    lines.push(currentLine);
+                    currentLine = word;
+                } else {
+                    currentLine = currentLine ? currentLine + ' ' + word : word;
+                }
+            }
+            if (currentLine) lines.push(currentLine);
+            return lines;
+        };
+        
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            }
+            return label;
+        };
+
+        const createChart = (ctx, config) => {
+            if (ctx) new Chart(ctx, config);
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            const sensitivityData = {
+                labels: ['Financial Data', 'Biometric Information', 'Health Data', 'Personal Identity Info', 'Location Information', 'Social Data', 'User Behavior Data'].map(wrapLabel),
+                datasets: [{
+                    label: 'Sensitivity Score (out of 5)',
+                    data: [4.9, 4.8, 4.7, 4.1, 3.9, 3.6, 3.2],
+                    backgroundColor: [PALETTE.teal, PALETTE.teal, PALETTE.teal, PALETTE.orange, PALETTE.orange, PALETTE.red, PALETTE.red],
+                    borderColor: 'rgba(0,0,0,0.1)',
+                    borderWidth: 1
+                }]
+            };
+            const sensitivityConfig = {
+                type: 'bar',
+                data: sensitivityData,
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        title: { display: true, text: 'Data Privacy Sensitivity Score (Avg. out of 5)', color: FONT_COLOR, font: { size: 16 } },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, max: 5, grid: { color: GRID_COLOR }, ticks: { color: FONT_COLOR } },
+                        y: { grid: { display: false }, ticks: { color: FONT_COLOR, font: { size: 12 } } }
+                    }
+                }
+            };
+            createChart(document.getElementById('sensitivityChart'), sensitivityConfig);
+
+            const createTradeoffChart = (id, label, accepted, rejected, color) => {
+                const data = {
+                    labels: ['Accept', 'Reject'],
+                    datasets: [{
+                        data: [accepted, rejected],
+                        backgroundColor: [color, '#E5E7EB'],
+                        borderColor: '#F8F9FA',
+                        borderWidth: 2
+                    }]
+                };
+                const config = {
+                    type: 'doughnut',
+                    data: data,
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: `${accepted}% Accept`,
+                                color: FONT_COLOR,
+                                font: { size: 18, weight: 'bold' },
+                                position: 'bottom'
+                            }
+                        },
+                        cutout: '70%'
+                    }
+                };
+                 createChart(document.getElementById(id), config);
+            };
+
+            createTradeoffChart('performanceTradeoffChart', 'Performance', 78.7, 21.3, PALETTE.teal);
+            createTradeoffChart('accuracyTradeoffChart', 'Accuracy', 72.0, 28.0, PALETTE.teal);
+            createTradeoffChart('complexityTradeoffChart', 'Complexity', 30.1, 69.9, PALETTE.red);
+            createTradeoffChart('costTradeoffChart', 'Cost', 25.3, 74.7, PALETTE.red);
+        });
+    </script>
+</body>
+</html>
